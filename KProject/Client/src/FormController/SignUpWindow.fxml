@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FormController.SignUpWindowController">
+   <children>
+      <Button fx:id="SignUpButton" layoutX="179.0" layoutY="329.0" mnemonicParsing="false" onAction="#signUp" prefHeight="33.0" prefWidth="242.0" text="Зарегистрироваться" />
+      <TextField fx:id="newlogin" layoutX="164.0" layoutY="53.0" prefHeight="39.0" prefWidth="273.0" promptText="логин" />
+      <TextField fx:id="newpass" layoutX="164.0" layoutY="105.0" prefHeight="39.0" prefWidth="273.0" promptText="пароль" />
+      <TextField fx:id="firstname" layoutX="164.0" layoutY="154.0" prefHeight="39.0" prefWidth="273.0" promptText="имя" />
+      <TextField fx:id="secondname" layoutX="164.0" layoutY="206.0" prefHeight="39.0" prefWidth="273.0" promptText="фамилия" />
+      <TextField fx:id="dolzhnost" layoutX="164.0" layoutY="256.0" prefHeight="39.0" prefWidth="273.0" promptText="должность" />
+      <Button fx:id="backButton" layoutX="521.0" layoutY="22.0" mnemonicParsing="false" onAction="#backToMenu" text="назад" />
+   </children>
+</Pane>

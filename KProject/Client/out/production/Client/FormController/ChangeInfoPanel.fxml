@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="changeTable" prefHeight="385.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FormController.ChangeInfoPanelController">
+   <children>
+      <TextField fx:id="okladField" layoutX="212.0" layoutY="48.0" prefHeight="46.0" prefWidth="282.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="premPercentField" layoutX="212.0" layoutY="114.0" prefHeight="46.0" prefWidth="282.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="allowance_nameField" layoutX="212.0" layoutY="177.0" prefHeight="46.0" prefWidth="282.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="allowance_percentField" layoutX="212.0" layoutY="243.0" prefHeight="46.0" prefWidth="282.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Button fx:id="change" layoutX="235.0" layoutY="329.0" mnemonicParsing="false" onAction="#change" prefHeight="46.0" prefWidth="199.0" text="Изменить">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="566.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="назад" />
+      <Label layoutX="35.0" layoutY="48.0" prefHeight="46.0" prefWidth="95.0" text="Оклад">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="114.0" prefHeight="46.0" prefWidth="188.0" text="Ставка премии">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="177.0" prefHeight="46.0" prefWidth="145.0" text="Надбавка">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="243.0" prefHeight="46.0" prefWidth="199.0" text="Размер надбавки">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
